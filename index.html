@@ -7,5 +7,37 @@
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Triangle Calculator</h1>
+      </div>
+      <form id="triangle">
+        <label for="side1">Side #1:</label>
+        <input id="side1" class="form-control" type="text" />
+        <label for="side2">Side #2:</label>
+        <input id="side2" class="form-control" type="text" />
+        <label for="side3">Side #3:</label>
+        <input id="side3" class="form-control" type="text" />
+        <button type="submit">Submit</button>
+      </form>
+      <div class="answer">
+        <div id="Equilateral">
+          <h3>Equilateral</h3>
+        </div>
+        <div id="Isosceles">
+          <h3>Isoceles</h3>
+        </div>
+        <div id="Scalene">
+          <h3>Scalene</h3>
+        </div>
+        <div id="Not-a-triangle">
+          <h3>NOT a triangle!</h3>
+        </div>
+        <div id="default">
+          <h3>Please Enter 3 numbers</h3>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
